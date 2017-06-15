@@ -15,11 +15,13 @@
 		2C3363D11EF1328400E40807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C3363D01EF1328400E40807 /* Assets.xcassets */; };
 		2C3363D41EF1328400E40807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3363D21EF1328400E40807 /* LaunchScreen.storyboard */; };
 		2C3363D91EF1329400E40807 /* Banana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C725DF31EF0C528009B6E59 /* Banana.framework */; };
+		2C59552D1EF23FE00040B712 /* BananaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C59552B1EF23FE00040B712 /* BananaViewController.h */; };
+		2C59552E1EF23FE00040B712 /* BananaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C59552C1EF23FE00040B712 /* BananaViewController.m */; };
+		2C59556B1EF266AF0040B712 /* Target_Banana.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5955691EF266AF0040B712 /* Target_Banana.h */; };
+		2C59556C1EF266AF0040B712 /* Target_Banana.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C59556A1EF266AF0040B712 /* Target_Banana.m */; };
 		2C725DFD1EF0C528009B6E59 /* Banana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C725DF31EF0C528009B6E59 /* Banana.framework */; };
 		2C725E021EF0C528009B6E59 /* BananaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C725E011EF0C528009B6E59 /* BananaTests.m */; };
 		2C725E391EF0C612009B6E59 /* Banana.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C725E371EF0C612009B6E59 /* Banana.h */; };
-		2C725E3C1EF0C68D009B6E59 /* ReplaceMe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */; };
-		2C725E3D1EF0C68D009B6E59 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */; };
 		6AA09A8A18ABFBA3C8F338CD /* libPods-BananaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA91DA89A333D55E0E7575B /* libPods-BananaTests.a */; };
 		CB89D81FA2E3AEE80ECADACA /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7E8F793870A6DE17CFFED4 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
@@ -49,14 +51,16 @@
 		2C3363D01EF1328400E40807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C3363D31EF1328400E40807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C3363D51EF1328400E40807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C59552B1EF23FE00040B712 /* BananaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BananaViewController.h; sourceTree = "<group>"; };
+		2C59552C1EF23FE00040B712 /* BananaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BananaViewController.m; sourceTree = "<group>"; };
+		2C5955691EF266AF0040B712 /* Target_Banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Banana.h; sourceTree = "<group>"; };
+		2C59556A1EF266AF0040B712 /* Target_Banana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Banana.m; sourceTree = "<group>"; };
 		2C725DF31EF0C528009B6E59 /* Banana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Banana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C725DFC1EF0C528009B6E59 /* BananaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C725E011EF0C528009B6E59 /* BananaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BananaTests.m; sourceTree = "<group>"; };
 		2C725E031EF0C528009B6E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C725E361EF0C612009B6E59 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C725E371EF0C612009B6E59 /* Banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banana.h; sourceTree = "<group>"; };
-		2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceMe.h; sourceTree = "<group>"; };
-		2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		5DD2D34061E7B8BBAF85FC5F /* Pods-BananaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BananaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BananaTests/Pods-BananaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		692304C4A28164647BA489B7 /* Pods-Banana_EXAMPLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Banana_EXAMPLE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Banana_EXAMPLE/Pods-Banana_EXAMPLE.debug.xcconfig"; sourceTree = "<group>"; };
 		728BE8B2977AC832744E6903 /* libPods-Banana.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Banana.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +136,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2C5955681EF266AF0040B712 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				2C5955691EF266AF0040B712 /* Target_Banana.h */,
+				2C59556A1EF266AF0040B712 /* Target_Banana.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
 		2C725DE71EF0C511009B6E59 = {
 			isa = PBXGroup;
 			children = (
@@ -166,10 +179,11 @@
 		2C725E351EF0C612009B6E59 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2C5955681EF266AF0040B712 /* Targets */,
 				2C725E361EF0C612009B6E59 /* Info.plist */,
 				2C725E371EF0C612009B6E59 /* Banana.h */,
-				2C725E3A1EF0C68D009B6E59 /* ReplaceMe.h */,
-				2C725E3B1EF0C68D009B6E59 /* ReplaceMe.m */,
+				2C59552B1EF23FE00040B712 /* BananaViewController.h */,
+				2C59552C1EF23FE00040B712 /* BananaViewController.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -197,7 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C725E391EF0C612009B6E59 /* Banana.h in Headers */,
-				2C725E3C1EF0C68D009B6E59 /* ReplaceMe.h in Headers */,
+				2C59552D1EF23FE00040B712 /* BananaViewController.h in Headers */,
+				2C59556B1EF266AF0040B712 /* Target_Banana.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +490,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C725E3D1EF0C68D009B6E59 /* ReplaceMe.m in Sources */,
+				2C59552E1EF23FE00040B712 /* BananaViewController.m in Sources */,
+				2C59556C1EF266AF0040B712 /* Target_Banana.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

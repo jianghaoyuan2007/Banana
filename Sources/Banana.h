@@ -16,5 +16,7 @@ FOUNDATION_EXPORT const unsigned char BananaVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Banana/PublicHeader.h>
 
-#import "ReplaceMe.h"
+#import "Target_Banana.h"
+
+#import "BananaViewController.h"
 
