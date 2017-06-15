@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BananaViewController.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)buttonTapped:(id)sender {
+    
+    BananaViewController *viewController = [BananaViewController new];
+    
+    [self presentViewController:viewController animated:YES completion:nil];
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
